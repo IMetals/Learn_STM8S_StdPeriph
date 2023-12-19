@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2557319626</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Exe\GPIO_Exercise2.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.o</file>
+      <file>$PROJ_DIR$\..\DriverLib\src\stm8s_gpio.c</file>
+      <file>$PROJ_DIR$\..\UserFile\stm8s_it.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\UserFile\main.c</file>
+      <file>$PROJ_DIR$\..\UserFile\stm8s_it.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_it.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\GPIO_Exercise2.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_it.pbi</file>
+      <file>$PROJ_DIR$\..\UserFile\stm8s_conf.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_can.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_flash.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_adc2.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_tim3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_tim4.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_uart1.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_tim1.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_i2c.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_iwdg.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_beep.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_spi.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_tim2.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_wwdg.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_awu.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_exti.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_gpio.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_itc.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_uart3.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_clk.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\inc\stm8s_rst.h</file>
+      <file>$PROJ_DIR$\..\DriverLib\src\stm8s_clk.c</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+      <file>$PROJ_DIR$\Debug\List\GPIO_Exercise2.map</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+      <file>$TOOLKIT_DIR$\config\lnkstm8s208c8.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_it.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.__cstat.et</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 0 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\GPIO_Exercise2.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 41 9 2 3 10 40 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\DriverLib\src\stm8s_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 16 28 27 24 19 30 35 23 26 18 32 14 17 25 15 31 33 36 22 20 21 34</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 32 27 14 17 30 25 15 35 31 16 23 33 24 36 26 22 28 18 20 21 34 29 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\UserFile\stm8s_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 16 28 27 24 19 30 35 23 26 18 14 17 25 15 31 32 33 36 22 20 21 34 8</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 8 27 14 17 30 25 15 35 31 16 32 23 33 24 36 26 22 28 18 20 21 34 29 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\UserFile\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 16 29 27 24 19 30 35 23 26 18 14 17 25 15 31 32 33 36 22 20 21 34</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 27 14 17 30 25 15 35 31 16 32 23 33 24 36 26 22 28 18 20 21 34 29 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\DriverLib\src\stm8s_clk.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 24 16 28 29 19 30 35 23 26 18 14 17 25 15 31 32 33 36 22 20 21 34</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 35 27 14 17 30 25 15 31 16 32 23 33 24 36 26 22 28 18 20 21 34 29 19</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

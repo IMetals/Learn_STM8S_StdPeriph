@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\..\..\..\STM8S_Lesson1_STD_GPIO_test\GPIO_Exercise1\ProjectFile\GPIO_Exercise1.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\GPIO_Exercise2.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+
